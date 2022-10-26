@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myPractice Website</title>
+    <link href="./resources/main.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul>
+           <div class="logo">
+            <a href="#">LOGO</a>
+           </div> 
+
+           <a href="#"><li>Home</li></a>
+           <a href="#"><li>About us</li></a>
+           <a href="#"><li>Contact</li></a>
+        </ul>
+    </nav>
+    <header>
+        <div class ="banner">
+            <h1>Hello to my new website</h1>
+            <img class="banner-image" src="./resources/images/second image.jpg" alt="pic">
+        </div>
+    </header>
+    <main>
+        <div class="about_us">
+            <section class="location">
+                <article class="introduction">
+                    <h2>I am making this website for the first time in <strong>NYC</strong></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed id semper risus in hendrerit gravida rutrum. Sapien nec sagittis aliquam malesuada. Pulvinar sapien et ligula ullamcorper malesuada proin libero nunc. Nullam vehicula ipsum a arcu cursus vitae congue. Duis ut diam quam nulla. Aenean euismod elementum nisi quis eleifend quam. Mi eget mauris pharetra et ultrices neque ornare aenean euismod. Nec dui nunc mattis enim ut tellus. Risus nec feugiat in fermentum. Feugiat nibh sed pulvinar proin gravida hendrerit lectus. Pharetra vel turpis nunc eget. Sit amet cursus sit amet dictum sit amet. Eget felis eget nunc lobortis mattis aliquam faucibus. Varius morbi enim nunc faucibus a pellentesque. Enim nunc faucibus a pellentesque sit amet porttitor eget dolor. Lectus urna duis convallis convallis tellus id interdum velit laoreet.
+
+                        Proin sagittis nisl rhoncus mattis rhoncus urna. Neque aliquam  this is where all of the information about what i am trying to provide would be presented to the main public</p>
+                </article>
+            </section>
+            <section class="images">
+                <section class="first_pic">
+                    <figure>
+                     <img src="resources/images/first image.jpg" alt="background picture of NYC">
+                     <figcaption><p>Here is were the magic happens, </p></figcaption>
+                    </figure>
+                </section>
+                <section class="second_pic">
+                   <figure>
+                       <img src="resources/images/second image.jpg" alt="second picture">
+                       <figcaption><p>Here is were the magic happens, </p></figcaption>   
+                   </figure>
+                </section>
+                <section class="food">
+                    <figure>
+                        <img src="./resources/images/pizza.webp" alt="food">
+                        <figcaption>this pizza is highly requested in broadway</figcaption>
+                    </figure>
+                </section>
+            </section>
+        </div>
+    </main>
+
+    <script>
+
+        const body = document.body;
+        let lastScroll = 0;
+
+        window.addEventListener('scroll', () => {
+            console.log(window.pageYOffset)
+        })
+    </script>
+</body>
+</html>
